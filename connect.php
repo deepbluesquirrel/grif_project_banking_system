@@ -1,0 +1,10 @@
+<?php
+$server='localhost';
+$user='root';
+$pass='';
+$db='bank';
+$conn=mysqli_connect($server,$user,$pass,$db);
+if(!$conn)
+{
+    mysqli_connect_error();
+}
